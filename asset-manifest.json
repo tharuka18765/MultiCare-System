@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MultiCare-System/static/css/main.a4204819.css",
+    "main.js": "/MultiCare-System/static/js/main.55aacabc.js",
+    "index.html": "/MultiCare-System/index.html",
+    "main.a4204819.css.map": "/MultiCare-System/static/css/main.a4204819.css.map",
+    "main.55aacabc.js.map": "/MultiCare-System/static/js/main.55aacabc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4204819.css",
+    "static/js/main.55aacabc.js"
+  ]
+}
