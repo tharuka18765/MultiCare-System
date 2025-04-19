@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  background-color: #d0d7df;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.top-bar h2 {
+  font-weight: normal;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #808080, #a0a0a0);
+  color: #fff;
+  padding: 30px 100px;
+  text-align: start;
+  
+  
+
+}
+
+.main-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 10px;
+  max-width: 50%;
+  
+  
+}
+
+.building-photo {
+  max-width: 45%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.building-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 20px;
+}
+
+.admin-btn {
+  background-color: #0097a7;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user1-btn {
+  background-color: #00bfa5;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user2-btn {
+  background-color: #ff8f00;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.login-container {
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: #0097a7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-form button:hover {
+  background: #00838f;
+}
