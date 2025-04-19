@@ -1,5 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import NavBar from './NavBar';
+import MenuLink from './MenuLink';
+
+
 
 const Home = () => {
   const navigate = useNavigate();
@@ -9,7 +13,14 @@ const Home = () => {
       {/* Top Bar */}
       <header className="top-bar">
         <img src="/logo.png" alt="Logo" className="logo" />
-        <h2>Workforce Care System</h2>
+        <h2 className="logo-title">MultiCare System </h2>
+        <div>
+      
+        <MenuLink linkname = "Home" url = "/"/>
+        <MenuLink linkname = "About Us" url = "about"/>
+        <MenuLink linkname = "Contact Us" url = "contact"/>
+        
+        </div>
       </header>
 
       {/* Main Section */}
@@ -36,7 +47,7 @@ const Home = () => {
             color: "black", // Explicitly setting black color
             zIndex: "2"
           }}>
-          Workforce Care System
+          MultiCare System
         </h1>
       </section>
 

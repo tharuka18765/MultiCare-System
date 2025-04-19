@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import AdminLogin from "./components/AdminLogin";
 import UserLogin1 from "./components/UserLogin1";
 import UserLogin2 from "./components/UserLogin2";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
